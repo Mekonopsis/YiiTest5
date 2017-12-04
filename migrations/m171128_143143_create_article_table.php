@@ -16,7 +16,7 @@ class m171128_143143_create_article_table extends Migration
             'id' => $this->primaryKey(),
             'title'=>$this->string(),
             'content'=>$this->text(),
-            'date'=>$this->date(),
+            'date'=>$this->datetime(),
             'user_id'=>$this->integer(),
         ]);
     }
